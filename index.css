@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.todo {
+  width: 80%;
+}
+.todo .heading {
+  display: flex;
+  justify-content: center;
+}
+.mainTodo {
+  width: 90%;
+  margin-top: 20px;
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputDiv {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputField {
+  width: 50%;
+  height: 70%;
+}
+.inputField::placeholder {
+  padding-left: 30px;
+}
+.btn {
+  width: 100px;
+  height: 70%;
+}
+.taskDiv {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
